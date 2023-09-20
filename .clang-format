@@ -1,0 +1,29 @@
+---
+  BasedOnStyle: Google
+  ColumnLimit: 0
+  IndentWidth: 2
+  AlignConsecutiveAssignments: true
+  AlignConsecutiveDeclarations: true
+  AlignConsecutiveMacros: AcrossEmptyLines
+  AllowShortBlocksOnASingleLine: Empty
+  AllowShortIfStatementsOnASingleLine: Never
+  AlwaysBreakBeforeMultilineStrings: false
+  IndentPPDirectives: BeforeHash
+  Cpp11BracedListStyle: false
+  DerivePointerAlignment: false
+  PointerAlignment: Left
+  BreakBeforeBraces: Custom
+  BraceWrapping:
+    AfterCaseLabel: false
+    AfterClass: false
+    AfterFunction: true
+    AfterNamespace: false
+    BeforeCatch:     true
+    BeforeElse:      true
+
+  #BreakBeforeBraces: Linux
+  #InsertNewlineAtEOF: true
+  #InsertBraces: true
+...
+## version 2.2
+

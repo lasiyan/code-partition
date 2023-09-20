@@ -1,0 +1,18 @@
+# ignore all temp(.) folders
+/.*/
+.bak*/
+.back*/
+
+# ignore all files and folders in bin folder
+/bin/*
+!/bin/Release/
+/bin/Release/*
+
+# ignore compiled files
+/build*/
+compile_commands.json
+
+# exception 
+!/bin/Release/resource/
+!/bin/Release/service/
+!/bin/Release/install.sh
